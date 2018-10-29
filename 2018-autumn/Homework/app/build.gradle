@@ -4,6 +4,8 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+System.properties['com.android.build.gradle.overrideVersionCheck'] = 'true'
+
 android {
     compileSdkVersion 27
     defaultConfig {
